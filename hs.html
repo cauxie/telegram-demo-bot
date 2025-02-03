@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #back-to-top{
+           position: fixed;
+           bottom: 20px;
+           right: 20px;
+           display: none;
+           z-index: 1000;
+        }
+   </style>
+</head>
+<body class="bg-white text-gray-900">
+    <nav class="flex justify-between items-center px-10 py-5">
+        <h1 class="text-lg font-bold">Henry.</h1>
+        <ul class="flex space-x-6 text-gray-600 font-medium">
+            <li><a href="#" class="text-purple-600">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <img src="../images/download.png " class="h-100" alt="">
+    </nav>
+    <div class="flex flex-col md:flex-row items-center justify-between px-10 py-20">
+        <div class="md:w-1/2 text-center md:text-left">
+            <p class="text-lg">Hey, I'm Henry👋</p>
+            <h2 class="text-5xl font-bold">
+                <span class="text-purple-600">Front</span>end Developer
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-lg">
+                I'm a frontend developer based in Italy, I'll help you build beautiful websites your users will love.
+            </p>
+            <div class="mt-6 space-x-4">
+                <button class="px-6 py-3 bg-black text-white rounded-lg">Get In Touch</button>
+
+
+
+
+
+                
+                <button class="px-6 py-3 border border-gray-500 rounded-lg">Browse Projects</button>
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
+            <div class="w-60 h-60 rounded-full border-4 border-gray-300 flex items-center justify-center overflow-hidden">
+                <img src="../images/pexels-photo-10187153.webp" alt="Luca's profile" class="w-full h-full object-cover p-4 rounded-full">
+            </div>
+        </div>
+    </div>
+
+   
+ 
+    <section id="project" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">My projects</h2>
+            <!-- project grid  -->
+             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- project 1  -->
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">project titlke 1 </h3>
+                        <p class="text-md">
+                            hrjiepirjnf hb kj4n b jipqjj btwjejferf jnijfottg rnoreekd gnhtlkjkot5 gn
+                        </p>
+                    </div>
+                 </div>
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">project titlke 1 </h3>
+                        <p class="text-md">
+                            hrjiepirjnf hb kj4n b jipqjj btwjejferf jnijfottg rnoreekd gnhtlkjkot5 gn
+                        </p>
+                    </div>
+                 </div>
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">luxury cars </h3>
+                        <p class="text-md">
+                           delivering nation wide 
+                        </p>
+                    </div>
+                 </div>
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">luxury cars </h3>
+                        <p class="text-md">
+                           luxury at your Expense
+                        </p>
+                    </div>
+                 </div>
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">luxury cars </h3>
+                        <p class="text-md">
+                            buy and driver
+                        </p>
+                    </div>
+                 </div>
+                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="../images/pexels-photo-6152812.jpeg" alt="akara" class="w-full h-96">
+                    <div class="p-6"> 
+                        <h3 class="text-xl font-semibold mb-4">luxury cars </h3>
+                        <p class="text-md">
+                          we sell luxury cars
+                        </p>
+                    </div>
+                 </div>
+             </div>
+        </div>
+         </section>
+
+         <div class="container mx-auto px-6 lg:px-20 py-10">
+            <header class="text-center mb-12">
+                <h1 class="text-5xl font-bold text-gray-900">
+                    About <span class="text-indigo-600">me.</span>
+                </h1>
+                <p class="text-gray-600 text-lg mt-4">
+                    Developing beautiful and functional websites is what I love doing, 
+                    and that’s why I give my all in every new challenge.
+                </p>
+            </header>
+    
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- My Stack Section -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">My Stack.</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-md flex flex-wrap gap-2">
+                        <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Globe" class="rounded-lg"> 
+                    </div>
+                </div>
+    
+                <!-- My Special Place Section -->
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">My Special Place.</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-md flex justify-center items-center">
+                        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Globe" class="rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="px-20 my-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Experience.</h2>
+            
+            <div class="flex flex-col md:flex-row">
+                <!-- Sidebar -->
+                <div class="md:w-1/4 border-l-2 border-purple-500 pl-4 space-y-2">
+                    <a href="#" class="text-purple-600 font-semibold block">Apple</a>
+                    <a href="#" class="text-gray-700 hover:text-purple-600 block">Microsoft</a>
+                    <a href="#" class="text-gray-700 hover:text-purple-600 block">Spotify</a>
+                    <a href="#" class="text-gray-700 hover:text-purple-600 block">Stripe</a>
+                    <a href="#" class="text-gray-700 hover:text-purple-600 block">Webflow</a>
+                </div>
+    
+                <!-- Content -->
+                <div class="md:w-3/4 mt-4 md:mt-0 md:pl-6">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Engineer <a href="#" class="text-purple-600">@ Apple</a>
+                    </h3>
+                    <p class="text-gray-500">May 2018 - Present</p>
+                    
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-purple-500 text-lg mr-2">✔</span>
+                            <p class="text-gray-700">Developed and maintained large interactive web applications for Apple Music using Ember.js.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-500 text-lg mr-2">✔</span>
+                            <p class="text-gray-700">Built an extension to Apple Music features within Facebook Messenger leveraging third-party and internal APIs.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-500 text-lg mr-2">✔</span>
+                            <p class="text-gray-700">Contributed engineering to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+
+
+        <div class="px-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                Skills<span class="text-purple-600">.</span>
+            </h2>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Web Design -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Web Design</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Design</li>
+                        <li>Wireframing</li>
+                        <li>User Research</li>
+                    </ul>
+                </div>
+    
+                <!-- Frontend -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Frontend</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                        <li>NextJS</li>
+                        <li>CSS3</li>
+                    </ul>
+                </div>
+    
+                <!-- Backend -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Backend</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                        <li>ExpressJS</li>
+                        <li>Vercel</li>
+                    </ul>
+                </div>
+    
+                <!-- Soft Skills -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Soft Skills</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>Effective Communication</li>
+                        <li>Collaboration</li>
+                        <li>Commitment</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+
+
+
+
+       
+
+         <button id=" back-to-top" class="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-600">⬆️</button>
+
+
+
+
+
+
+         <script>
+            const mobileMenuButton = document.getElementById('mobile-menu-button')
+            const mobileMenu = document.getElementById('mobile-menu')
+            mobileMenuButton.addEventListener('click',()=>{
+                mobileMenu.classList.toggle('hidden');
+            })
+            //back to topn button
+            const backToTopBtn = document.getElementById('back-to-top')
+            window.addEventListener('scroll',()=>{
+            if(window.scrollY > 100){
+                backToTopBtn.style.display = 'block';
+            }else{
+                backToTopBtn.style.display = 'none';
+            }
+            });
+        
+            backToTopBtn.addEventListener('click', ()=>{
+                window.scrollTo({
+                    top:0,
+                    behavior:'smooth'
+                })
+            })
+        </script>
+        
+</body>
+</html>
+
